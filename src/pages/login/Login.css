@@ -1,0 +1,90 @@
+.containerForm {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23efefef'/%3E%3Cstop offset='1' stop-color='%23efefef' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23eeeeee'/%3E%3Cstop offset='1' stop-color='%23eeeeee' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23dddddd'/%3E%3Cstop offset='1' stop-color='%23dddddd' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FFFFFF'/%3E%3Cstop offset='1' stop-color='%23FFFFFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23DEDEDE'/%3E%3Cstop offset='1' stop-color='%23DEDEDE' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23DCDCDC'/%3E%3Cstop offset='1' stop-color='%23DCDCDC' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.logoForm {
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 5px;
+  color: black;
+  font-family: "Urbanist", sans-serif;
+}
+.labelForm {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(85, 85, 85, 0.534);
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 285px;
+  height: 350px;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 9.4px 8.2px 5.3px rgba(0, 0, 0, 0.04),
+    30px 26.2px 17.9px rgba(0, 0, 0, 0.049), 104px 91px 80px rgba(0, 0, 0, 0.07);
+}
+
+.titleForm {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.loginForm input {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.loginForm button {
+  padding: 10px;
+  width: 100px;
+}
+.buttonForm {
+  /* width: 40%; */
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 400;
+  background-color: rgba(85, 85, 85, 0.53);
+  color: white;
+  cursor: pointer;
+}
+.buttonForm:hover {
+  background-color: rgba(85, 85, 85, 0.65);
+}
+.buttonGuestForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 224px !important;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-weight: 400;
+  background-color: rgba(0, 132, 240, 0.53);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.buttonGuestForm:hover {
+  background-color: rgba(0, 132, 240, 0.65);
+}
+.buttonIconGuestForm {
+  margin-right: 10px;
+}
+.dividerForm {
+  width: 224px;
+  margin: 25px 0;
+  border: 1px solid rgba(85, 85, 85, 0.171);
+}
